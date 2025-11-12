@@ -3,7 +3,8 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navItems = [
-  { label: "Home", href: "#home" },
+  { label: "Home", href: "#hero" },
+  { label: "Contents", href: "#table-of-contents" },
   { label: "About", href: "#about" },
   { label: "Resume", href: "#resume" },
   { label: "Projects", href: "#projects" },
@@ -21,19 +22,26 @@ export const Navigation = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
 
-      // Update active section based on scroll position
-      const sections = navItems.map(item => item.href.substring(1));
-      const currentSection = sections.find(section => {
+      const sections = navItems.map((item) => item.href.substring(1));
+      let currentSection = "home"; // default highlight when near top
+
+      sections.forEach((section) => {
         const element = document.getElementById(section);
         if (element) {
           const rect = element.getBoundingClientRect();
-          return rect.top <= 150 && rect.bottom >= 150;
+          if (rect.top <= 150 && rect.bottom >= 150) {
+            currentSection = section;
+          }
         }
-        return false;
       });
-      if (currentSection) {
-        setActiveSection(currentSection);
+
+      // Keep "Home" active if Hero section still occupies top third
+      const hero = document.getElementById("home");
+      if (hero && hero.getBoundingClientRect().bottom > window.innerHeight / 3) {
+        currentSection = "home";
       }
+
+      setActiveSection(currentSection);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -56,6 +64,7 @@ export const Navigation = () => {
     >
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex items-center justify-between">
+          {/* Logo / Brand */}
           <a
             href="#home"
             className="text-2xl font-heading font-bold gradient-text"

@@ -1,5 +1,6 @@
 import { Navigation } from "@/components/Navigation";
 import { Hero } from "@/components/Hero";
+import { TableOfContents } from "@/components/TableOfContents"; // ✅ Add this
 import { About } from "@/components/About";
 import { Resume } from "@/components/Resume";
 import { Projects } from "@/components/Projects";
@@ -17,6 +18,7 @@ const Index = () => {
     <div className="min-h-screen">
       <Navigation />
       <Hero />
+      <TableOfContents /> {/* ✅ Add it right after Hero */}
       <About />
       <Resume />
       <Projects />
