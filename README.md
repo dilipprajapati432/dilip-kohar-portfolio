@@ -6,7 +6,8 @@ This is a personal Digital Portfolio Website created as part of Assignment 4 –
 It showcases my academic achievements, projects, certifications, skills, and professional journey as a 3rd-year B.Tech Computer Engineering student at PDEU.
 
 The portfolio is designed with a modern, responsive interface featuring interactive animations, gradient highlights, and a clean glassmorphic theme.
-<img width="1918" height="987" alt="image" src="https://github.com/user-attachments/assets/4c3d0f16-173e-46f1-9300-c23ebe9a32ed" />
+<img width="1888" height="1001" alt="image" src="https://github.com/user-attachments/assets/04b90ccf-ea80-4435-b7cd-3c965b4582a6" />
+
 
 
 🌐 Live Website
