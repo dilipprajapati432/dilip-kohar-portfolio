@@ -10,8 +10,7 @@ export const Footer = () => {
           </p>
           
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <span>Built with</span>
-            <Heart className="h-4 w-4 text-accent fill-accent" />
+            <span>Built</span>
             <span>using React, TailwindCSS & TypeScript</span>
           </div>
 
