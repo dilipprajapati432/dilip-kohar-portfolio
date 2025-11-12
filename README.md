@@ -1,73 +1,122 @@
-# Welcome to your Lovable project
+✨ Dilip Kohar – Digital Portfolio
 
-## Project info
+🎯 Overview
 
-**URL**: https://lovable.dev/projects/c3ddd80a-dc88-4d8f-b917-36fcc3bfabbe
+This is a personal Digital Portfolio Website created as part of Assignment 4 – Communication Skills III.
+It showcases my academic achievements, projects, certifications, skills, and professional journey as a 3rd-year B.Tech Computer Engineering student at PDEU.
 
-## How can I edit this code?
+The portfolio is designed with a modern, responsive interface featuring interactive animations, gradient highlights, and a clean glassmorphic theme.
+<img width="1918" height="987" alt="image" src="https://github.com/user-attachments/assets/4c3d0f16-173e-46f1-9300-c23ebe9a32ed" />
 
-There are several ways of editing your application.
 
-**Use Lovable**
+🌐 Live Website
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c3ddd80a-dc88-4d8f-b917-36fcc3bfabbe) and start prompting.
+🔗 Visit Portfolio: https://dilipprajapati432.github.io/dilip-kohar-portfolio/
 
-Changes made via Lovable will be committed automatically to this repo.
+🧰 Tech Stack
 
-**Use your preferred IDE**
+⚛️ React – Frontend framework
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🌀 Vite – Build tool for lightning-fast development
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🎨 Tailwind CSS – Styling with utility-first CSS
 
-Follow these steps:
+💎 shadcn/ui – Modern component library for React
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+💻 TypeScript – Type-safe development
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🌐 GitHub Pages – Deployment and hosting
 
-# Step 3: Install the necessary dependencies.
-npm i
+📁 Project Structure
+├── src
+│   ├── assets/             # Images, certificates, resume
+│   ├── components/         # Reusable UI components
+│   ├── pages/              # Page components
+│   ├── App.tsx             # Main app entry
+│   ├── main.tsx            # React root render
+│   └── index.css           # Global styles (includes Tailwind)
+├── public/                 # Static files
+├── package.json            # Dependencies & scripts
+├── vite.config.ts          # Vite configuration
+└── tailwind.config.ts      # Tailwind configuration
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+⚙️ Local Development Setup
+
+To run this project locally:
+
+# Clone the repository
+git clone https://github.com/dilipprajapati432/dilip-kohar-portfolio.git
+
+# Move into the project folder
+cd dilip-kohar-portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Then open your browser and go to:
 
-**Use GitHub Codespaces**
+http://localhost:8080
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🚀 Deploying to GitHub Pages
 
-## What technologies are used for this project?
+The portfolio is deployed using the gh-pages package.
 
-This project is built with:
+# Build and deploy to GitHub Pages
+npm run deploy
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
+This will automatically create or update the gh-pages branch and host your website at:
+👉 https://dilipprajapati432.github.io/dilip-kohar-portfolio/
 
-Simply open [Lovable](https://lovable.dev/projects/c3ddd80a-dc88-4d8f-b917-36fcc3bfabbe) and click on Share -> Publish.
+🧾 Portfolio Sections
 
-## Can I connect a custom domain to my Lovable project?
+Cover Page: Photo, name, tagline
 
-Yes, you can!
+Introduction & Learning Philosophy
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Resume/CV: Education, Experience, Skills
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Interdisciplinary Projects & Research
+
+Advanced Skill Development & Mastery
+
+Collaborative & Leadership Experiences
+
+Global Awareness & Ethics
+
+Future Aspirations & Professional Growth
+
+Conclusion & Self-Assessment
+
+Testimonials & Recommendations
+
+🏆 Key Projects
+
+To-Do List Web Application – Flask & MySQL backend for task management
+
+Crop Disease Detector (AI Project) – Image classification using PlantVillage dataset
+
+Hospital Management Syste (Java) – Implemented using Iterator design pattern
+
+Spotify UI Clone- Made using HTML5, CSS and Javascript
+
+🧑‍💻 Author
+
+👋 Dilip Kohar
+3rd Year B.Tech – Computer Engineering
+Pandit Deendayal Energy University (PDEU), Gandhinagar, India
+
+📧 Email: dilipkohar4320@gmail.com
+
+🔗 GitHub: dilipprajapati432
+
+🔗 LinkedIn: [linkedin.com/in/dilipkohar](https://www.linkedin.com/in/dilip-kohar-014627293)
+
+❤️ Acknowledgment
+
+Built with passion using
+React, TailwindCSS, shadcn/ui, and Lovable.dev
