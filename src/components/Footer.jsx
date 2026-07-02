@@ -49,7 +49,7 @@ export const Footer = () => {
           {/* Identity & Mission */}
           <motion.div variants={itemVariants} className="max-w-md w-full text-center lg:text-left">
             <h2 className="text-3xl md:text-4xl font-serif font-black tracking-tight text-foreground uppercase relative inline-block">
-              <span className="relative z-10">DILIP<span className="gradient-text ml-2">KOHAR</span></span>
+              <span className="relative z-10">DILIP<span className="gradient-text ml-2">PRAJAPATI</span></span>
               {/* Extra text glow */}
               <span className="absolute inset-0 bg-cyan-400/20 blur-xl z-0 rounded-full mix-blend-screen opacity-0 hover:opacity-100 transition-opacity duration-700" />
             </h2>
@@ -63,10 +63,10 @@ export const Footer = () => {
             <div className="flex flex-wrap justify-center sm:justify-start gap-6 sm:gap-10">
             {[
               { icon: Github, href: "https://github.com/dilipprajapati432", label: "Github" },
-              { icon: Linkedin, href: "https://www.linkedin.com/in/dilip-kohar-014627293", label: "LinkedIn" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/dilip-prajapati-014627293", label: "LinkedIn" },
               { icon: Twitter, href: "https://x.com/DilipPraja6787", label: "X" },
               { icon: Facebook, href: "https://www.facebook.com/dilipprajapati516/", label: "Facebook" },
-              { icon: Mail, href: "mailto:dilipkohar4320@gmail.com", label: "Email" }
+              { icon: Mail, href: "mailto:dilipprajapati4320@gmail.com", label: "Email" }
             ].map((s, i) => (
               <a
                 key={i}
@@ -109,7 +109,7 @@ export const Footer = () => {
           className="pt-4 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-4"
         >
           <p className="text-[10px] font-sans tracking-[0.2em] text-muted-foreground/60 uppercase">
-            © {currentYear} Dilip Kohar. All rights reserved.
+            © {currentYear} Dilip Prajapati. All rights reserved.
           </p>
           <p className="text-[10px] font-sans tracking-[0.2em] text-muted-foreground/60 uppercase flex items-center gap-2">
             Designed with Precision <span className="w-1 h-1 rounded-full bg-accent animate-pulse shadow-[0_0_8px_rgba(34,211,238,0.8)]" />

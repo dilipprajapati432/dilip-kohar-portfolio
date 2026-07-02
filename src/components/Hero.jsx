@@ -110,7 +110,7 @@ export const Hero = () => {
 
               <h1 className="text-5xl md:text-7xl font-serif font-bold text-foreground leading-[1.1] tracking-tight">
                 Dilip<br />
-                <span className="gradient-text">Kohar</span>
+                <span className="gradient-text">Prajapati</span>
               </h1>
 
               <TypewriterRoles />
@@ -134,10 +134,10 @@ export const Hero = () => {
               <div className="flex flex-wrap items-center gap-3 md:gap-4">
                 {[
                   { icon: Github, href: "https://github.com/dilipprajapati432" },
-                  { icon: Linkedin, href: "https://www.linkedin.com/in/dilip-kohar-014627293" },
+                  { icon: Linkedin, href: "https://www.linkedin.com/in/dilip-prajapati-014627293" },
                   { icon: Twitter, href: "https://x.com/DilipPraja6787" },
                   { icon: Facebook, href: "https://www.facebook.com/dilipprajapati516/" },
-                  { icon: Mail, href: "mailto:dilipkohar4320@gmail.com" }
+                  { icon: Mail, href: "mailto:dilipprajapati4320@gmail.com" }
                 ].map((social, i) => (
                   <motion.a
                     key={i}
@@ -193,7 +193,7 @@ export const Hero = () => {
                 <div className="w-full h-full rounded-full overflow-hidden relative">
                   <img
                     src="/images/profile-dilip1.jpg"
-                    alt="Dilip Kohar"
+                    alt="Dilip Prajapati"
                     className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 grayscale-[0.3] group-hover:grayscale-0"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-60" />

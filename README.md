@@ -1,6 +1,6 @@
 # DPfolio – Personal Portfolio Website
 
-Welcome to **DPfolio**, the official portfolio of **Dilip Kohar** – a Third-year B.Tech CSE student at PDEU, passionate about Web & Java Development, and exploring AI/ML.
+Welcome to **DPfolio**, the official portfolio of **Dilip Prajapati** – a Third-year B.Tech CSE student at PDEU, passionate about Web & Java Development, and exploring AI/ML.
 
 ## 🔥 Features
 
@@ -12,7 +12,7 @@ Welcome to **DPfolio**, the official portfolio of **Dilip Kohar** – a Third-ye
 
 ## 🚀 Live Preview
 
-👉 [Click here to view it live](https://dilipkohar.github.io/DPfolio/)
+👉 [Click here to view it live](https://dilipprajapati.github.io/DPfolio/)
 
 ## 📄 Resume
 
@@ -43,9 +43,9 @@ DPfolio/
 ## 🌐 Connect with Me
 
 - 📧 Email: prajapati.dilip4570@gmail.com
-- 🌍 LinkedIn: [[linkedin.com/in/dilip-kohar-014627293](https://linkedin.com/in/dilip-kohar-014627293)
+- 🌍 LinkedIn: [[linkedin.com/in/dilip-prajapati-014627293](https://linkedin.com/in/dilip-prajapati-014627293)
 - 💻 GitHub: [github.com/dilipprajapati432](https://github.com/dilipprajapati432)             
 
 ---
 
-Made with ❤️ by **Dilip Kohar**
+Made with ❤️ by **Dilip Prajapati**
