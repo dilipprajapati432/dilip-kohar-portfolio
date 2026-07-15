@@ -134,10 +134,10 @@ export const Hero = () => {
               <div className="flex flex-wrap items-center gap-3 md:gap-4">
                 {[
                   { icon: Github, href: "https://github.com/dilipprajapati432" },
-                  { icon: Linkedin, href: "https://www.linkedin.com/in/dilip-prajapati-014627293" },
+                  { icon: Linkedin, href: "https://www.linkedin.com/in/dilip-kohar-014627293" },
                   { icon: Twitter, href: "https://x.com/DilipPraja6787" },
                   { icon: Facebook, href: "https://www.facebook.com/dilipprajapati516/" },
-                  { icon: Mail, href: "mailto:dilipprajapati4320@gmail.com" }
+                  { icon: Mail, href: "mailto:prajapati.dilip4570@gmail.com" }
                 ].map((social, i) => (
                   <motion.a
                     key={i}

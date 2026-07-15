@@ -19,7 +19,6 @@ export const Resume = () => {
       grade: "3.19 GPA",
     },
   ];
-
   const experience = [
     {
       title: "Web Developer Intern",
