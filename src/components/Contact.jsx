@@ -142,11 +142,11 @@ export const Contact = () => {
                     <div className="space-y-1.5">
                       <p className="text-[10px] font-sans uppercase tracking-[0.2em] text-muted-foreground/90 font-bold">{info.label}</p>
                       {info.href ? (
-                        <a href={info.href} className="text-lg md:text-xl font-serif text-foreground/90 hover:text-white transition-colors block drop-shadow-sm">
+                        <a href={info.href} className="text-lg md:text-xl font-serif text-foreground/90 hover:text-white transition-colors block drop-shadow-sm break-all">
                           {info.value}
                         </a>
                       ) : (
-                        <p className="text-lg md:text-xl font-serif text-foreground/90 drop-shadow-sm">{info.value}</p>
+                        <p className="text-lg md:text-xl font-serif text-foreground/90 drop-shadow-sm break-all">{info.value}</p>
                       )}
                     </div>
                   </div>
