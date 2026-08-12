@@ -85,14 +85,14 @@ export const Hero = () => {
       <div className="noise-overlay" />
 
       <div className="container mx-auto px-6 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
           {/* Left Content */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="space-y-6"
+            className="space-y-6 order-2 lg:order-1"
           >
             <div className="space-y-4">
               <motion.div
@@ -105,7 +105,7 @@ export const Hero = () => {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.8)]"></span>
                 </span>
-                <span className="text-[10px] font-sans font-bold tracking-[0.3em] uppercase text-white/90">Available for Work</span>
+                <span className="text-[10px] font-sans font-bold tracking-[0.3em] uppercase text-white/90">Available for Opportunities</span>
               </motion.div>
 
               <h1 className="text-5xl md:text-7xl font-serif font-bold text-foreground leading-[1.1] tracking-tight">
@@ -158,7 +158,7 @@ export const Hero = () => {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, ease: "easeOut" }}
-            className="hidden lg:flex justify-center relative"
+            className="flex justify-center relative order-1 lg:order-2"
           >
             <motion.div
               onMouseMove={handleMouseMove}
@@ -169,7 +169,7 @@ export const Hero = () => {
                 rotateY,
                 transformStyle: "preserve-3d"
               }}
-              className="relative w-[400px] h-[400px] flex items-center justify-center transition-all duration-300 ease-out"
+              className="relative w-[280px] h-[280px] sm:w-[320px] sm:h-[320px] lg:w-[400px] lg:h-[400px] flex items-center justify-center transition-all duration-300 ease-out"
             >
               {/* Animated Rings */}
               <motion.div
